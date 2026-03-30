@@ -11,7 +11,7 @@ dependencies = [
 
 [project.optional-dependencies]
 tests = [
-    "pytest",
+    "pytest == 3.10.1",
 ]
 security = [
     "requests; python_version>=\"3.6\"",
