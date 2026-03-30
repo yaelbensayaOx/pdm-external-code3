@@ -77,14 +77,7 @@ all = [
 pdm = "pdm.core:main"
 
 [dependency-groups]
-test = [
-    "pdm[pytest]",
-    "pytest-cov",
-    "pytest-xdist>=1.31.0",
-    "pytest-rerunfailures>=10.2",
-    "pytest-httpserver>=1.0.6",
-    "pytest-httpx>=0.34.0",
-]
+test = ["pdm[pytest]", "pytest-cov", "pytest-xdist>=1.31.0", "pytest-rerunfailures>=10.2", "pytest-httpserver>=1.1.5", "pytest-httpx>=0.34.0"]
 tox = [
     "tox",
     "tox-pdm>=0.5",
