@@ -6,7 +6,7 @@ authors = [
     {name = "Frost Ming", email = "mianghong@gmail.com"},
 ]
 dependencies = [
-    "requests[security]~=2.26",
+    "requests[security]2.33.0",
 ]
 requires-python = ">=3.6"
 license = {text = "MIT"}
